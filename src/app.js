@@ -11,7 +11,6 @@ const partialspath = path.join(__dirname, "../templates/partials");
 app.use('/css', express.static(path.join(__dirname, "../node_modules/bootstrap/dist/css")));
 app.use('/js', express.static(path.join(__dirname, "../node_modules/bootstrap/dist/js")));
 app.use('/jq', express.static(path.join(__dirname, "../node_modules/jquery/dist")));
-
 app.use(express.static(staticpath));
 app.use(express.urlencoded({extended:false}));  //Get the data fetched by setting the extend property false
 app.set("view engine", "hbs");
