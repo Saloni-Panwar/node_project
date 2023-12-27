@@ -57,7 +57,8 @@ h3 {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #fd5c63;
+  color: white;
+  color: #e70611;
 }
 
 /* our hero sections */
